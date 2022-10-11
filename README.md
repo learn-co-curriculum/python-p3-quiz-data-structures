@@ -1,7 +1,7 @@
 ---
 id: 38300
 course_id: 5935
-repo: python-p3-quiz-data-structures-3
+repo: python-p3-quiz-data-structures
 ---
 
 # Data Structures Quiz
