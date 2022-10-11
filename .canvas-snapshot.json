@@ -4,7 +4,7 @@
     "title": "Data Structures Quiz",
     "html_url": "https://learning.flatironschool.com/courses/5935/quizzes/38300",
     "mobile_url": "https://learning.flatironschool.com/courses/5935/quizzes/38300?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"python-p3-quiz-data-structures-3\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/python-p3-quiz-data-structures-3/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"python-p3-quiz-data-structures\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/python-p3-quiz-data-structures/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 15564,
     "show_correct_answers_last_attempt": true,
-    "version_number": 3,
+    "version_number": 4,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -289,7 +289,7 @@
           "right": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
           "comments": "",
           "comments_html": "",
-          "match_id": 6221
+          "match_id": 7225
         },
         {
           "id": "2653",
@@ -298,7 +298,7 @@
           "right": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
           "comments": "",
           "comments_html": "",
-          "match_id": 3230
+          "match_id": 2908
         }
       ],
       "variables": null,
@@ -308,15 +308,15 @@
       "matches": [
         {
           "text": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
-          "match_id": 6221
+          "match_id": 7225
         },
         {
           "text": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
-          "match_id": 3230
+          "match_id": 2908
         },
         {
           "text": "I don't know.",
-          "match_id": 9168
+          "match_id": 6048
         }
       ],
       "matching_answer_incorrect_matches": "I don't know."
