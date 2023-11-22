@@ -85,53 +85,50 @@
       "id": 366035,
       "quiz_id": 53498,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 1,
-      "question_name": "Using for loop",
+      "assessment_question_id": 635924,
+      "position": null,
+      "question_name": "Placeholder question - do not use",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>We have a variable <code>lunch_menu</code>, set equal to an list of lunch menu items:</p>\n<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"pizza\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sandwich\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sushi\"</span><span class=\"p\">,</span> <span class=\"s2\">\"soup\"</span><span class=\"p\">,</span> <span class=\"s2\">\"salad\"</span><span class=\"p\">]</span>\n</code></pre>\n</div>\n<p>Since you're super hungry and super excited about lunch, use the <code>for loop</code> method to enumerate over the list and output a string to the terminal with each lunch menu item with an <code>\"!\"</code> at the end.</p>\n<p>Which piece of code will achieve the desired result? Select all that apply:</p>",
+      "question_text": "<p>We have a variable <code>lunch_menu</code>, set equal to an list of lunch menu items:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"pizza\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sandwich\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sushi\"</span><span class=\"p\">,</span> <span class=\"s2\">\"soup\"</span><span class=\"p\">,</span> <span class=\"s2\">\"salad\"</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>Since you're super hungry and super excited about lunch, use the <code>for loop</code>\nmethod to enumerate over the list and output a string to the terminal with each\nlunch menu item with an <code>\"!\"</code> at the end.</p>\n\n<p>Which piece of code will achieve the desired result? Select all that apply:</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": null,
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
-      "neutral_comments_html": null,
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_6353",
-          "id": 6353,
-          "text": "for item in lunch_menu: print(item + \"!\")",
-          "html": "<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code>for item in lunch_menu:<br>    print(<span class=\"n\">item</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\")</span>\n</code></pre>\n</div>",
-          "comments": "Correct! Using for lets us access each element of the list in the block, and we can output a string by using print.",
-          "comments_html": "Correct! Using <code>for</code> lets us access each element of the list in the block, and we can output a string by using <code>print</code>."
+          "id": 4835,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! Using <code>for</code> lets us access each element of the list in the block, and\nwe can output a string by using <code>print</code>.</p>",
+          "weight": 100.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">for</span> <span class=\"n\">item</span> <span class=\"k\">in</span> <span class=\"ss\">lunch_menu: </span><span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"n\">item</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span><span class=\"p\">)</span>\n</code></pre></div>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_8170",
-          "id": 8170,
-          "text": "print(lunch_menu + \"!\")",
-          "html": "<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"nb\">print(</span><span class=\"n\">lunch_menu</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\")</span>\n</code></pre>\n</div>",
-          "comments": "This code would result in an error, since lunch_menu is a list, and we can't us the + method to add a string to the list. How can we iterate over each element?",
-          "comments_html": "This code would result in an error, since <code>lunch_menu</code> is a list, and we can't us the <code>+</code> method to add a string to the list. How can we iterate over each element?"
+          "id": 4592,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>This code would result in an error, since <code>lunch_menu</code> is a list, and we can't\nus the <code>+</code> method to add a string to the list. How can we iterate over each\nelement?</p>",
+          "weight": 0.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"n\">lunch_menu</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span><span class=\"p\">)</span>\n</code></pre></div>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_3633",
-          "id": 3633,
-          "text": "for item in lunch_menu: item + \"!\"",
-          "html": "<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code>for item in lunch_menu:<br>   <span class=\"n\">item</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span></code></pre>\n</div>",
-          "comments": "Using for lets us access each element of the list in the block, but this method doesn't output anything to the terminal since we aren't using print.",
-          "comments_html": "Using <code>for</code> lets us access each element of the list in the block, but this method doesn't output anything to the terminal since we aren't using <code>print</code>."
+          "id": 8360,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Using <code>for</code> lets us access each element of the list in the block, but this\nmethod doesn't output anything to the terminal since we aren't using <code>print</code>.</p>",
+          "weight": 0.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">for</span> <span class=\"n\">item</span> <span class=\"k\">in</span> <span class=\"ss\">lunch_menu: </span><span class=\"n\">item</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n</code></pre></div>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_7344",
-          "id": 7344,
-          "text": "I don't know.",
-          "html": "I don't know.",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 7784,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
@@ -145,32 +142,32 @@
       "id": 366036,
       "quiz_id": 53498,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 2,
-      "question_name": "Question 2",
+      "assessment_question_id": 635922,
+      "position": null,
+      "question_name": "Placeholder question - do not use",
       "question_type": "true_false_question",
-      "question_text": "When we run <code>git add .</code>, <strong>all</strong> files that have been created or modified since the last commit are staged and will be included in the next commit.&nbsp;",
+      "question_text": "<p>When we run <code>git add .</code>, <strong>all</strong> files that have been created or modified since\nthe last commit are staged and will be included in the next commit.&nbsp;</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": null,
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
-      "neutral_comments_html": null,
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
       "answers": [
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_1334",
-          "id": 1334,
+          "comments": "",
+          "comments_html": "<p>Not quite. Be sure to review the <code>.gitignore</code> source for this question. You'll\nget it next time!</p>",
           "text": "True",
-          "comments": "Not quite. Be sure to review the .gitignore source for this question. You'll get it next time!",
-          "comments_html": "Not quite. Be sure to review the <code>.gitignore</code> source for this question. You'll\nget it next time!"
+          "weight": 0,
+          "id": 1334
         },
         {
+          "comments": "",
+          "comments_html": "",
+          "text": "False",
           "weight": 100,
-          "migration_id": "RESPONSE_2854",
-          "id": 2854,
-          "text": "False"
+          "id": 2854
         }
       ],
       "variables": null,
@@ -184,30 +181,32 @@
       "id": 366037,
       "quiz_id": 53498,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 3,
-      "question_name": "Question 1",
+      "assessment_question_id": 635925,
+      "position": null,
+      "question_name": "Placeholder question - do not use",
       "question_type": "short_answer_question",
-      "question_text": "A/an [correct answer choice here] is simply a well-defined procedure, or set of instructions, for accomplishing a specific task.",
+      "question_text": "<p>A/an [correct answer choice here] is simply a well-defined procedure, or set of\ninstructions, for accomplishing a specific task.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": null,
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
-      "neutral_comments_html": null,
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
       "answers": [
         {
+          "id": "3878",
           "text": "algorithm",
-          "weight": 100,
           "comments": "",
-          "id": 3878
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "3455",
           "text": "Algorithm",
-          "weight": 100,
           "comments": "",
-          "id": 3455
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -221,32 +220,36 @@
       "id": 366038,
       "quiz_id": 53498,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 4,
-      "question_name": "Intro to React: Declarative Programming",
+      "assessment_question_id": 635923,
+      "position": null,
+      "question_name": "Placeholder question - do not use",
       "question_type": "matching_question",
-      "question_text": "Match the term with the correct description.",
+      "question_text": "<p>Match the term with the correct description.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": null,
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
-      "neutral_comments_html": null,
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
       "answers": [
         {
+          "id": "4653",
           "text": "Declarative Programming",
-          "id": 4653,
-          "match_id": 4873,
           "left": "Declarative Programming",
-          "right": "Describes what the end result should be, not the specific actions or steps toget to that result."
+          "right": "Describes what the end result should be, not the specific actions or steps toget to that result.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 2944
         },
         {
+          "id": "42",
           "text": "Imperative Programming",
-          "id": 42,
-          "match_id": 6625,
           "left": "Imperative Programming",
-          "right": "Explicitly describes the specific actions or steps for getting to the endresult."
+          "right": "Explicitly describes the specific actions or steps for getting to the endresult.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 136
         }
       ],
       "variables": null,
@@ -255,19 +258,15 @@
       "formula_decimal_places": null,
       "matches": [
         {
-          "match_id": 4873,
-          "text": "Describes what the end result should be, not the specific actions or steps toget to that result."
+          "text": "Describes what the end result should be, not the specific actions or steps toget to that result.",
+          "match_id": 2944
         },
         {
-          "match_id": 6625,
-          "text": "Explicitly describes the specific actions or steps for getting to the endresult."
-        },
-        {
-          "match_id": 9268,
-          "text": "I don't know."
+          "text": "Explicitly describes the specific actions or steps for getting to the endresult.",
+          "match_id": 136
         }
       ],
-      "matching_answer_incorrect_matches": null
+      "matching_answer_incorrect_matches": ""
     }
   ]
 }
